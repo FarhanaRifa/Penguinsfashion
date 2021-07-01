@@ -1,0 +1,107 @@
+@font-face {
+    font-family:deja ;
+    src: url(font/DejaVuSans.ttf);
+}
+
+.pcard-img{
+    width: auto;
+    margin: 0 auto;
+    height: 300px;
+    padding: 15px;
+  
+
+}
+.product-img{
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+    border-radius: 10px;
+    margin: 25px  ;
+}
+.icon{
+    width:100px;
+    height: 100px;
+    
+}
+
+body{
+    font-family: deja;
+    display: block;
+}
+h1, h2, h3, h4, h5, p{
+    font-family: deja;
+}
+h3,h2,h5 {
+    font-weight: 800 !important;
+}
+button{
+    font-weight: 500;
+}
+
+.sizing img{
+    height: 30px;
+    width: 180px;
+}
+.navbar-nav a{
+    padding-left: 3rem !important;
+    display: inline-block;
+}
+.header-image{
+    width: 80%;
+
+}
+.container{
+    margin-bottom: 100px;
+}
+.haed-name{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size:55px;
+    
+   
+    
+}
+.second p {
+    font-size: 20px;
+    font-weight: 500;
+}
+#color{
+    color: #fabe4c;
+}
+#similar-color,h2,h3,h5{
+   color: #363958; 
+
+}
+#bye-now{
+    background-color: #94ae2e;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 25px;
+    font-size: 20px;
+}
+.gray-bg{
+    background-color: #fffbf0;
+    padding: 50px;
+}
+.price{
+    font-weight: 700;
+}
+.card{
+    border: none !important;
+    
+}
+.card-footer{
+    border-top: none !important ;
+    background-color: white !important;
+
+}
+.icon-size{
+    padding: 8px;
+    border-radius: 15px !important;
+}
+.last-images{
+    height: 430px;
+    width: auto;
+}
+.do-gap{
+    margin-right: 3px !important;
+}

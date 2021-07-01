@@ -31,12 +31,20 @@ h1, h2, h3, h4, h5, p{
     font-family: deja;
 }
 h3,h2,h5 {
-    font-weight: 800 !important;
+    font-weight:bolder!important;
+    font-size:25px   !important;
 }
 button{
     font-weight: 500;
 }
+.main a{
+    font-weight:500;
+    font-size:20px;
+    color:rgba(0,0,0,.9) !important}
 
+.main a:hover{
+    color:#ccc !important;
+}
 .sizing img{
     height: 30px;
     width: 180px;
@@ -46,7 +54,7 @@ button{
     display: inline-block;
 }
 .header-image{
-    width: 80%;
+    width: 100%;
 
 }
 .container{
@@ -77,13 +85,15 @@ button{
     border: none;
     padding: 15px 25px;
     font-size: 20px;
+
 }
 .gray-bg{
     background-color: #fffbf0;
     padding: 50px;
 }
 .price{
-    font-weight: 700;
+    font-weight: bold;
+    font-size:40px;
 }
 .card{
     border: none !important;
@@ -99,9 +109,63 @@ button{
     border-radius: 15px !important;
 }
 .last-images{
-    height: 430px;
-    width: auto;
+    
+    width: 100%;
 }
 .do-gap{
     margin-right: 3px !important;
+}
+.second p{
+    font-size:25px;
+}
+.last-part{
+    display:none;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+ 
+ .navbar-collapse{
+    display:block
+}
+.second p{
+    font-size:15px;
+}
+.thrid h2{
+    text-align:center;
+}
+.forth h2{
+  text-align:center;  
+}
+.normal-show{
+    display:none;
+}
+.last-part{
+    margin-bottom:60px;
+    display:block;
+}
+.last-body{
+    text-align:center;
+
+}
+.last-body h5{
+    font-size:30px;
+}
+.last-body p{
+    font-size:20px;
+}
+.price{
+    font-size:40px !important;
+}
+#bye-now{
+    padding: 25px 35px;
+}
+.header-image{
+    margin-top:30px;
+    
+}
 }
